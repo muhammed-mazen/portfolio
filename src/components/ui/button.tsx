@@ -8,26 +8,33 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90",
-        destructive:
-          "bg-destructive text-destructive-foreground hover:bg-destructive/90",
+        default: "bg-primary text-primary-foreground hover:bg-primary/90 dark:bg-primary dark:hover:bg-primary/80",
+
+        destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90 dark:bg-red-600 dark:hover:bg-red-500",
+
         outline:
-          'border border-[#000] bg-transparent hover:bg-accent hover:text-accent-foreground',
+          "border border-[#000] bg-transparent hover:bg-accent hover:text-accent-foreground dark:border-neutral-600 dark:text-white dark:hover:bg-neutral-800",
+
         custom:
-          ' bg-[#020817] text-white  hover:bg-[#020817d6]  hover:shadow-lg',
+          "bg-[#020817] text-white hover:bg-[#1a1f2c] hover:shadow-lg dark:bg-[#111827] dark:hover:bg-[#1f2937]",
+
         subtle:
-          'border border-input bg-background hover:bg-[#6aa2e6] hover:text-white',
+          "border border-input bg-background hover:bg-[#6aa2e6] hover:text-white dark:border-neutral-700 dark:bg-neutral-900 dark:hover:bg-[#6aa2e6]/30 dark:hover:text-white",
+
         ghost:
-          'bg-transparent hover:bg-zinc-100 text-zinc-800 data-[state=open]:bg-transparent data-[state=open]:bg-transparent',
-        link: 'bg-transparent dark:bg-transparent underline-offset-4 hover:underline text-slate-900 dark:text-slate-100 hover:bg-transparent dark:hover:bg-transparent',
+          "bg-transparent hover:bg-zinc-100 text-zinc-800 data-[state=open]:bg-transparent dark:hover:bg-neutral-800 dark:text-white",
+
+        link:
+          "bg-transparent dark:bg-transparent underline-offset-4 hover:underline text-slate-900 dark:text-slate-100 hover:bg-transparent dark:hover:bg-transparent",
       },
+
       size: {
         default: 'h-10 py-2 px-4',
         sm: 'h-9 px-2 rounded-md',
         xs: 'h-8 px-1.5 rounded-sm',
         lg: 'h-11 px-8 rounded-md',
         icon: "h-10 w-10",
-        notch:"text-2xl px-2"
+        notch: "text-2xl px-2",
       },
     },
     defaultVariants: {
@@ -35,7 +42,7 @@ const buttonVariants = cva(
       size: 'default',
     },
   }
-)
+);
 
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement>,

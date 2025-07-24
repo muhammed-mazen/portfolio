@@ -37,6 +37,7 @@ type DockProps = {
 type DockItemProps = {
   className?: string;
   children: React.ReactNode;
+  onClick?: () => void;
 };
 type DockLabelProps = {
   className?: string;
@@ -108,7 +109,7 @@ function Dock({
           mouseX.set(Infinity);
         }}
         className={cn(
-          'mx-auto flex w-fit gap-1.5 sm:gap-4 rounded-2xl bg-gray-50 px-4 dark:bg-neutral-900',
+          'mx-auto flex w-fit gap-1.5 sm:gap-4 rounded-2xl px-4 backdrop-blur-md bg-white/10 dark:bg-white/5 border border-white/20 shadow-md',
           className
         )}
         style={{ height: panelHeight }}
@@ -123,7 +124,9 @@ function Dock({
   );
 }
 
-function DockItem({ children, className }: DockItemProps) {
+
+
+function DockItem({ children, className, onClick }: DockItemProps) {
   const ref = useRef<HTMLDivElement>(null);
 
   const { distance, magnification, mouseX, spring } = useDock();
@@ -151,8 +154,9 @@ function DockItem({ children, className }: DockItemProps) {
       onHoverEnd={() => isHovered.set(0)}
       onFocus={() => isHovered.set(1)}
       onBlur={() => isHovered.set(0)}
+      onClick={onClick}
       className={cn(
-        'relative inline-flex items-center justify-center',
+        'relative inline-flex items-center justify-center rounded-full backdrop-blur-sm bg-white/20 dark:bg-primary-sky/10 border border-white/30 shadow-sm transition-colors duration-200',
         className
       )}
       tabIndex={0}

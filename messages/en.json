@@ -1,0 +1,53 @@
+{
+  "Navbar": {
+    "Home": "Home",
+    "About": "About",
+    "Skills": "Skills",
+    "Education": "Education",
+    "Projects": "Projects",
+    "Contact": "Contact me",
+    "Language": "Language",
+    "DarkMode": "Dark Mode",
+    "LightMode": "Light Mode"
+  },
+  "Contact": {
+    "Title": "Contact Me!",
+    "Badge": "Contact Me"
+  },
+  "ContactForm": {
+    "Title": "Send me a mail.",
+    "Description": "I'll get back to you shortly.",
+    "NameLabel": "Name",
+    "NamePlaceholder": "Enter your name",
+    "EmailLabel": "Email",
+    "EmailPlaceholder": "Enter your email",
+    "MessageLabel": "Your Message",
+    "MessagePlaceholder": "Your message here...",
+    "SubmitButton": "Submit"
+  },
+  "Hero": {
+    "MyNameIs": "My Name is",
+    "IAmA": "I am a",
+    "&": "&"
+  },
+  "About": {
+    "AboutMe": "About Me",
+    "AndWeb": "and Web",
+    "DeveloperBasedIn": "Developer, Based In {location}.",
+    "Hobbies": "Hobbies",
+    "SkillsBadge": "My Skills",
+    "SkillsHeading": "My Technical Experience/Skills.",
+    "SkillsIntro": "I’m a Full Stack Software Engineer with 10 years of experience building scalable web applications and backend systems. My expertise spans Python, FastAPI, Django, .NET Core, React, and Next.js, with a strong focus on clean architecture, performance, and deployment using Docker and AWS.",
+    "SkillsLanguages": "Programming Languages",
+    "SkillsFrameworks": "Framework/Libraries",
+    "SkillsTools": "Tools & Technologies",
+    "EducationBadge": "Education",
+    "EducationHeading": "My Education"
+  },
+  "Projects": {
+    "ProjectsBadge": "Projects",
+    "ProjectsHeading": "My Projects",
+    "ProjectsDescription": "I love to build cool projects. Here, you'll find a curated collection of my creative endeavors and technical projects. Each piece represents a journey of innovation, problem-solving, and continuous learning. Feel free to explore this showcase of my passion and expertise in action."
+  },
+  "Download Resume": "Download Resume"
+}

@@ -1,10 +1,9 @@
 import { Circle, Dna, Globe2, Languages } from "lucide-react";
-import { portfolioConfig } from "@/config/portfolio.config";
 
-const Aboutfooter = () => {
+const Aboutfooter = ({ portfolioConfig }: { portfolioConfig: any }) => {
   const items = [
     {
-      name: "Language",
+      name: "Languages",
       answer: portfolioConfig.about.personalInfo.language,
       icon: <Languages className="h-11 w-11" />,
     },

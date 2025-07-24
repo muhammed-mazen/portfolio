@@ -1,19 +1,23 @@
 import FramerWrapper from "@/components/animation/FramerWrapper";
 import Heading from "@/components/Heading";
 import { Badge } from "@/components/ui/badge";
+import { getPortfolioConfig } from "@/config/portfolio.config";
 import { Briefcase } from "lucide-react";
-import { portfolioConfig } from "@/config/portfolio.config";
+import { useLocale, useTranslations } from "next-intl";
 
-const educationPage = () => {
+const EducationPage = () => {
+  const locale = useLocale();
+  const t = useTranslations("About");
+  const portfolioConfig = getPortfolioConfig(locale);
   return (
     // ABOUT PAGE
     <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
       <Badge variant="secondary" className="gap-1.5 py-1 ">
         <Briefcase className="h-4 w-4" />
-        Education
+        {t("EducationBadge")}
       </Badge>
       <div className="flex flex-col gap-3">
-        <Heading>My Education</Heading>
+        <Heading>{t("EducationHeading")}</Heading>
       </div>
       <div className="w-full h-fit flex flex-col">
         {portfolioConfig.education.map((edu, index) => (
@@ -30,7 +34,8 @@ const educationPage = () => {
               y={0}
               x={100}
               delay={0.35 + index * 0.1}
-              className="relative w-3/4 border-l-4 border-l-[#3c3c3c] p-4 gap-3 education_point"
+              className="relative w-3/4 border-s-4 border-s-[#3c3c3c] p-4 gap-3 education_point"
+
             >
               <div className="text-2xl font-rubik max-sm:text-xl">
                 {edu.degree}, <br /> {edu.institution}
@@ -46,4 +51,4 @@ const educationPage = () => {
   );
 };
 
-export default educationPage;
+export default EducationPage;

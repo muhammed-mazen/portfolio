@@ -9,9 +9,8 @@ import {
 import { buttonVariants } from "./ui/button";
 import Link from "next/link";
 import FramerWrapper from "./animation/FramerWrapper";
-import { portfolioConfig } from "@/config/portfolio.config";
 
-const SocialLinks = () => {
+const SocialLinks = ({ portfolioConfig }: { portfolioConfig: any }) => {
   const links = [
     {
       name: "Facebook",

@@ -6,7 +6,7 @@ module.exports = {
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
-	],
+  ],
   theme: {
     screens: {
       sm: '480px',
@@ -20,12 +20,13 @@ module.exports = {
       screens: {
         "2xl": "1400px",
       },
-      
+
     },
     extend: {
-      fontFamily:{
+      fontFamily: {
         poppins: ['var(--font-poppins)'],
-        rubik: ['var(--font-rubik)']
+        rubik: ['var(--font-rubik)'],
+        ar: ['"Cairo"', 'sans-serif']
       },
       colors: {
         border: "hsl(var(--border))",

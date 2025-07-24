@@ -1,60 +1,52 @@
-# Project Portfolio
+# Muhammed Mazen Hafez – Developer Portfolio
 
-A simple and Beautiful Porfolio made with Nextjs and Shadcn Ui.
+This is my customized developer portfolio site, forked from [taqui-786/Portfolio](https://github.com/taqui-786/Portfolio.git).
 
-![Demo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/u7eq68h0uvs6xqgw3yqe.jpeg)
+## 🔧 Features
 
-## Getting Started
+- ⚡ **Fully Responsive** – Optimized for all screen sizes
+- 🌐 **Multi-language Support** – Currently supports English and Arabic
+- 🌙 **Dark Mode Enabled** – Toggle between light and dark themes
+- 🎯 **Modern Stack** – Built with React + TailwindCSS
+- 🔄 **Updated Design** – Enhanced animations, styles, and layout adjustments
 
-First, run the development server:
+## 📁 Project Structure
+
+- `src/components` – Reusable UI components
+- `src/sections` – Page sections like Hero, About, Projects
+- `src/data` – Content for different languages
+- `src/assets` – Images and icons
+
+## 🚀 Getting Started
 
 ```bash
+git clone https://github.com/muhammed-mazen/Portfolio.git
+cd Portfolio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+## 🌍 Multi-language Support
+🇬🇧 English
+🇸🇦 Arabic (RTL support)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+You can toggle languages using the language switcher in the header.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🌒 Dark Mode
+Dark/light theme toggle is available in the navbar and persists across sessions using local storage.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 📦 Deployment
+This project can be deployed easily on:
 
-## Configuration
+Vercel
 
-This project uses a centralized configuration approach for all personal information. The main configuration file is located at:
+Netlify
 
-```
-src/config/portfolio.config.ts
-```
+GitHub Pages
 
-### Configuration Structure
+## 🙏 Credits
+Originally based on taqui-786/Portfolio.
 
-The configuration file contains the following sections:
+Feel free to fork, customize, or contact me via mhmazen.com
 
-- **Basic Information**: Name, title, description, location
-- **Contact Information**: Email and other contact details
-- **Social Media Links**: Links to various social media profiles
-- **SEO Information**: Keywords, metadata, and SEO-related settings
-- **About Information**: Bio, hobbies, and personal details
-- **Skills**: Programming languages, frameworks, tools, and professional roles
-- **Education**: Academic background and qualifications
-- **Projects**: Portfolio of projects with descriptions and links
-- **More Links**: Additional external links and resources
 
-### Customizing Your Portfolio
 
-To personalize the portfolio, simply edit the values in the `portfolio.config.ts` file. All changes will be reflected throughout the site automatically without having to modify multiple files.
-
-Example usage in a component:
-
-```typescript
-import { portfolioConfig } from "@/config/portfolio.config";
-
-// Access configuration values
-const { name, title } = portfolioConfig;
-```

@@ -1,0 +1,53 @@
+{
+    "Navbar": {
+        "Home": "الرئيسية",
+        "About": "من أنا",
+        "Skills": "المهارات",
+        "Education": "التعليم",
+        "Projects": "المشاريع",
+        "Contact": "تواصل معي",
+        "Language": "اللغة",
+        "DarkMode": "الوضع الداكن",
+        "LightMode": "الوضع الفاتح"
+    },
+    "Contact": {
+        "Title": "دعونا نتواصل – يسعدني أن أسمع منك!",
+        "Badge": "تواصل معي"
+    },
+    "ContactForm": {
+        "Title": "أرسل لي رسالة.",
+        "Description": "سأتواصل معك قريبًا.",
+        "NameLabel": "الاسم",
+        "NamePlaceholder": "أدخل اسمك",
+        "EmailLabel": "البريد الإلكتروني",
+        "EmailPlaceholder": "أدخل بريدك الإلكتروني",
+        "MessageLabel": "رسالتك",
+        "MessagePlaceholder": "اكتب رسالتك هنا...",
+        "SubmitButton": "إرسال"
+    },
+    "Hero": {
+        "MyNameIs": "أنا",
+        "IAmA": "انا",
+        "&": "و"
+    },
+    "About": {
+        "AboutMe": "عني",
+        "AndWeb": "ومطور ويب",
+        "DeveloperBasedIn": "مطور مقيم في {location}.",
+        "Hobbies": "الهوايات",
+        "SkillsBadge": "مهاراتي",
+        "SkillsHeading": "خبرتي ومهاراتي التقنية.",
+        "SkillsIntro": "أنا مطور برمجيات Full Stack بخبرة تزيد عن 10 سنوات في تطوير التطبيقات والأنظمة الخلفية القابلة للتوسّع. أتقن Python، FastAPI، Django، .NET Core، React، وNext.js، مع تركيز على البنية النظيفة، الأداء، والنشر باستخدام Docker وAWS.",
+        "SkillsLanguages": "لغات البرمجة",
+        "SkillsFrameworks": "الأطر والمكتبات",
+        "SkillsTools": "الأدوات والتقنيات",
+        "EducationBadge": " التعليم",
+        "EducationHeading": "مؤهلاتي العلمية"
+    },
+    "Projects": {
+        "ProjectsBadge": "المشاريع",
+        "ProjectsHeading": "مشاريعي",
+        "ProjectsDescription": "أحب بناء مشاريع مميزة. ستجد هنا مجموعة مختارة من ابتكاراتي ومشاريعي التقنية. كل مشروع يمثل رحلة من الإبداع، وحل المشكلات، ."
+    },
+    "Download Resume": "تحميل السيرة الذاتية"
+}

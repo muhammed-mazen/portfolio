@@ -52,7 +52,7 @@ const ProjectCards: React.FC<ProjectCardProps> = ({ value, num }) => {
                 'Library': 'bg-pink-100 text-pink-800',
                 'Zod': 'bg-cyan-100 text-cyan-800',
                 'React Hook Form': 'bg-violet-100 text-violet-800'
-              }[tag] || 'bg-gray-100 text-gray-800';
+              }[tag] || 'bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100';
 
               return (
                 <span 
@@ -68,7 +68,8 @@ const ProjectCards: React.FC<ProjectCardProps> = ({ value, num }) => {
 
         <CardFooter className="pt-2 ">
           <Link
-            href={value.link}
+            href={value.link || "#"}
+            
             target="_blank"
             rel="noopener noreferrer"
             className={cn(

@@ -1,0 +1,64 @@
+├── 📁 messages
+│   ├── 📄 ar.json
+│   ├── 📄 en.json
+├── 📁 public
+│   ├── 📄 me.webp
+│   ├── 📄 og-image.png
+│   ├── 📄 portfolioLogo.png
+├── 📁 src
+│   ├── 📁 app
+│   │   ├── 📁 [locale]
+│   ├── 📁 components
+│   │   ├── 📁 animation
+│   │   │   ├── 📄 DockAnimation.tsx
+│   │   │   ├── 📄 FramerWrapper.tsx
+│   │   │   ├── 📄 GithubBtn.tsx
+│   │   │   ├── 📄 HackerBtn.tsx
+│   │   ├── 📁 ui
+│   │   │   ├── 📄 badge.tsx
+│   │   │   ├── 📄 button.tsx
+│   │   │   ├── 📄 card.tsx
+│   │   │   ├── 📄 input.tsx
+│   │   │   ├── 📄 label.tsx
+│   │   │   ├── 📄 tooltip.tsx
+│   │   ├── 📄 Aboutfooter.tsx
+│   │   ├── 📄 ContactForm.tsx
+│   │   ├── 📄 DownLoadResumeBtn.tsx
+│   │   ├── 📄 Heading.tsx
+│   │   ├── 📄 HeroImage.tsx
+│   │   ├── 📄 HeroTexts.tsx
+│   │   ├── 📄 Navbar.tsx
+│   │   ├── 📄 ProjectsCard.tsx
+│   │   ├── 📄 SendEmail.ts
+│   │   ├── 📄 SkillsFotter.tsx
+│   │   ├── 📄 SocialLinks.tsx
+│   │   ├── 📄 TextRotator.tsx
+│   ├── 📁 config
+│   │   ├── 📄 portfolio.config.ar.ts
+│   │   ├── 📄 portfolio.config.en.ts
+│   │   ├── 📄 portfolio.config.shared.ts
+│   │   ├── 📄 portfolio.config.ts
+│   ├── 📁 context
+│   │   ├── 📄 config.tsx
+│   ├── 📁 i18n
+│   │   ├── 📄 navigation.ts
+│   │   ├── 📄 request.ts
+│   │   ├── 📄 routing.ts
+│   ├── 📁 lib
+│   │   ├── 📄 utils.ts
+│   ├── 📄 middleware.ts
+├── 📄 .env.sample
+├── 📄 .eslintrc.json
+├── 📄 .gitignore
+├── 📄 components.json
+├── 📄 leave.ps1
+├── 📄 next-env.d.ts
+├── 📄 next.config.ts
+├── 📄 package-lock.json
+├── 📄 package.json
+├── 📄 postcss.config.js
+├── 📄 README.md
+├── 📄 tailwind.config.ts
+├── 📄 tree.txt
+├── 📄 tsconfig.json
+├── 📄 zip.ps1
